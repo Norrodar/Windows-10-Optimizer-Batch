@@ -13,7 +13,7 @@
 echo.
 echo --- starting the update for installed apps...
 :: Programme über Chocolatey installieren
-choco upgradde all -y
+choco upgrade all -y
 
 echo.
 echo    ...Done!
