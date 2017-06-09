@@ -1,5 +1,5 @@
 # Windows 10 Optimizer Batch
-It's just a little script to tweak Windows 10, to uninstall bulk apps shipped within Windows 10 and to install often used apps like 7zip or Notepad++ with the support of chocolatey.
+It's just a little script to tweak Windows 10, to uninstall bulk apps shipped within Windows 10 and to install often used apps like 7zip or Notepad++ with the support of [chocolatey](https://chocolatey.org).
 
 ## Windows 10 tweaks
 - Remove the storeage of fast-access programs and files
@@ -9,7 +9,7 @@ It's just a little script to tweak Windows 10, to uninstall bulk apps shipped wi
 
 ## Often used apps
 This apps will be installed automatically.
-You can edit the list by using chocolatey: https://chocolatey.org/packages
+You can edit the list by using [chocolatey packages](https://chocolatey.org/packages)
 
 - 7zip
 - battle.net
