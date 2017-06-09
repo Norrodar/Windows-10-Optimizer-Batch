@@ -58,7 +58,7 @@ powershell "Get-AppxPackage *officehub* | Remove-AppxPackage"
 :: OneNote
 powershell "Get-AppxPackage *OneNote* | Remove-AppxPackage"
 :: Paint
-powershell "Get-AppxPackage *MSPaint* | Remove-AppxPackage"
+::powershell "Get-AppxPackage *MSPaint* | Remove-AppxPackage"
 :: Skype
 powershell "Get-AppxPackage *Skype* | Remove-AppxPackage"
 :: Sticky Notes
