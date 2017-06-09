@@ -1,5 +1,5 @@
 # Windows 10 Optimizer Batch
-It's just a little script to tweak Windows 10, to uninstall bulk apps shipped within Windows 10 and install often used apps like 7zip or Notepad++ with the support of chocolatey.
+It's just a little script to tweak Windows 10, to uninstall bulk apps shipped within Windows 10 and to install often used apps like 7zip or Notepad++ with the support of chocolatey.
 
 ## Windows 10 tweaks
 - Remove the storeage of fast-access programs and files
