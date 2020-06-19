@@ -2,18 +2,17 @@
 
 :: Windows 10 Optimizer Batch
 ::
-::	Written by Niranda
-::	Simple to use, easy to get, visit niranda.net
+::	Written by Norrodar
 ::
 :: For more information and updates visit:
-::		https://github.com/Niranda/Windows-10-Optimizer-Batch
+::		https://github.com/Norrodar/Windows-10-Optimizer-Batch
 ::
 :: Licensed under GPLv3
 
 echo.
 echo --- starting to uninstall unwanted standard apps from Windows 10
-:: Standard-Apps deinstallieren
-::	Zeilen auskommentieren, die nicht deinstalliert werden sollen
+:: Debloat Windows 10
+::  uncomment the lines of programs which you want to uninstall
 
 :: 3DBuilder
 powershell "Get-AppxPackage *3d* | Remove-AppxPackage"

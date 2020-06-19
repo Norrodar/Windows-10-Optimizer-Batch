@@ -2,26 +2,65 @@
 
 :: Windows 10 Optimizer Batch
 ::
-::	Written by Niranda
-::	Simple to use, easy to get, visit niranda.net
+::	Written by Norrodar
 ::
 :: For more information and updates visit:
-::		https://github.com/Niranda/Windows-10-Optimizer-Batch
+::		https://github.com/Norrodar/Windows-10-Optimizer-Batch
 ::
 :: Licensed under GPLv3
 
 echo.
 echo --- installing chocolatey (used to download and install applications)...
-:: Chocolatey installieren
+:: install Chocolatey
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 
 echo    ...Done!
 echo.
 echo --- starting the installation of your selected apps...
 
-:: Programme über Chocolatey installieren
-::  REMEMBER: You also have to edit the "Win10_uninstall_own_apps.bat" file!
-choco install office365proplus quicktime 7zip.install spotify winscp googlechrome teamspeak putty steam jdownloader telegram.install vlc battle.net winmerge notepadplusplus.install python jdk7 virtualbox paint.net dropbox teamviewer pdf24 wireshark openvpn logitechgaming geforce-experience filebot hashtab -y
+:: Install programs using chocolatey
+::		You can add your own packages, visit https://www.chocolatey.org
+choco install ^
+ 7zip ^
+ advanced-renamer ^
+ barrier ^
+ choco-cleaner ^
+ choco-package-list-backup ^
+ cpu-z ^
+ filebot ^
+ filezilla ^
+ gimp ^
+ handbrake ^
+ hashtab ^
+ hugin ^
+ hwinfo ^
+ jdownloader ^
+ keepassxc ^
+ notepadplusplus ^
+ nvidia-display-driver ^
+ openvpn ^
+ pdf24 ^
+ putty ^
+ python3 ^
+ rclone ^
+ shutup10 ^
+ steam ^
+ syncthing ^
+ synctrayzor ^
+ teamspeak ^
+ teamviewer ^
+ telegram ^
+ traffic-monitor ^
+ virtualbox ^
+ vlc ^
+ winmerge ^
+ winscp ^
+-y
+
+echo.
+echo --- Cleaning up
+echo.
+choco-cleaner
 
 echo.
 echo.

@@ -2,11 +2,10 @@
 
 :: Windows 10 Optimizer Batch
 ::
-::	Written by Niranda
-::	Simple to use, easy to get, visit niranda.net
+::	Written by Norrodar
 ::
 :: For more information and updates visit:
-::		https://github.com/Niranda/Windows-10-Optimizer-Batch
+::		https://github.com/Norrodar/Windows-10-Optimizer-Batch
 ::
 :: Licensed under GPLv3 
 
@@ -40,7 +39,7 @@ echo.
 echo          ======================================
 echo          ----- Windows 10 Optimizer Batch -----
 echo          --------------------------------------
-echo          ----- By Niranda www.Niranda.net -----
+echo          ----- By Norrodar www.Niranda.net -----
 echo          ======================================
 	
 :START
@@ -57,6 +56,7 @@ echo          ======================================
 	echo   -- WINDOWS 10 TWEAKS --
 	echo   4 = Remove fast-access folder and files
 	echo   5 = Remove Win10 standard apps
+	echo   6 = Enable Dark Mode
 	echo.
 	echo   -- OTHERS --
 	echo   0 = Exit this programm
@@ -69,6 +69,7 @@ echo          ======================================
 	IF /I "%X%"=="3" goto :THREE
 	IF /I "%X%"=="4" goto :FOUR
 	IF /I "%X%"=="5" goto :FIVE
+	IF /I "%X%"=="6" goto :SIX
 	IF /I "%X%"=="0" goto :EXIT
 	
 	cls
@@ -120,6 +121,22 @@ echo          ======================================
 	echo   5 - Remove Win10 standard apps...
 	call Win10_remove_standard_apps.bat
 	goto START
+	
+:SIX
+	cls
+	echo.
+	echo.
+	echo.
+	echo.
+	echo --- Edit registry to disable fast-access and last used apps and files...
+	echo    1. The Registry Editor shows a warning of editing the registry. To go on hit 'yes'.
+	echo    2. The Registry Editor will confirm the updates, just hit 'ok'.
+
+	Win10_darkmode.reg
+
+	echo    ...Done!
+	goto START
+	
 	
 :EXIT
 	cls

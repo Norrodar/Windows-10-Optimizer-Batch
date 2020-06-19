@@ -2,15 +2,12 @@
 
 :: Windows 10 Optimizer Batch
 ::
-::	Written by Niranda
-::	Simple to use, easy to get, visit niranda.net
+::	Written by Norrodar
 ::
 :: For more information and updates visit:
-::		https://github.com/Niranda/Windows-10-Optimizer-Batch
+::		https://github.com/Norrodar/Windows-10-Optimizer-Batch
 ::
 :: Licensed under GPLv3
-::
-:: Version 1.0.0 2017-06-09
 
 echo.
 echo.
