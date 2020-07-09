@@ -24,9 +24,11 @@ choco install ^
  7zip ^
  advanced-renamer ^
  barrier ^
+ caesium.install ^
  choco-cleaner ^
  choco-package-list-backup ^
  cpu-z ^
+ eraser ^
  filebot ^
  filezilla ^
  gimp ^
@@ -36,25 +38,26 @@ choco install ^
  hwinfo ^
  jdownloader ^
  keepassxc ^
+ libreoffice-fresh ^
  notepadplusplus ^
  nvidia-display-driver ^
+ openhashtab ^
  openvpn ^
  pdf24 ^
  putty ^
  python3 ^
  rclone ^
  shutup10 ^
- steam ^
  syncthing ^
  synctrayzor ^
  teamspeak ^
  teamviewer ^
  telegram ^
  traffic-monitor ^
+ veracrypt ^
  virtualbox ^
  vlc ^
  winmerge ^
- winscp ^
 -y
 
 echo.
