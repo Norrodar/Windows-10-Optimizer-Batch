@@ -42,36 +42,36 @@ You can edit the list by using [chocolatey packages](https://chocolatey.org/pack
 
 ## Windows 10 Standard Apps to uninstall
 Windows 10 is loaded with some bulk software/apps. The following apps can be uninstalled automatically.
-Any app with a star (*) in this list is selected to uninstall
+Crossed apps will be uninstalled.
 
-- 3D Builder *
+- ~~3D Builder~~
 - Alarms and Clock
-- Asphalt 8: Airborne *
+- ~~Asphalt 8: Airborne~~
 - Calculator
 - Calendar and Mail
-- Candy Crush Saga *
+- ~~Candy Crush Saga~~
 - Camera
-- Contact Support *
-- Drawboard PDF *
-- Get Office *
-- Get Skype *
-- Get Started *
-- Groove Music *
+- ~~Contact Support~~
+- ~~Drawboard PDF~~
+- ~~Get Office~~
+- ~~Get Skype~~
+- ~~Get Started~~
+- ~~Groove Music~~
 - Maps
-- Microsoft Solitaire Collection *
+- ~~Microsoft Solitaire Collection~~
 - Finance
 - Movies & TV
 - News
-- OneNote *
+- ~~OneNote~~
 - Paint
 - People
 - Phone Companion
 - Photos
-- Skype *
+- ~~Skype~~
 - Store
-- Sports *
-- Sway *
-- Twitter *
+- ~~Sports~~
+- ~~Sway~~
+- ~~Twitter~~
 - Voice Recorder
 - Weather
 - Windows Feedback
@@ -81,5 +81,4 @@ Any app with a star (*) in this list is selected to uninstall
 This program is published under the terms of the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) excluding a commercial/profit-oriented use. If you want to use this framework in a commercial context you have to buy an individual license. Therefore please contact the administrator of this repository.
 
 ## Changelog
-1.0.0, 2017-09-06
-- initial release
+See [VERSION.md File](./VERSION.md)
